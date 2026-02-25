@@ -14,7 +14,7 @@ spec:
   project: default
   source:
     path: gitops/manifests/workloads/gpu-dashboard/base
-    repoURL: https://github.com/na-launch/gpu-gitops.git
+    repoURL: https://github.com/samueltauil/ocp-gpu-gitop.git
     targetRevision: main
   syncPolicy:
     automated:
