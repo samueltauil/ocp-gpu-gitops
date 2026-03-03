@@ -13,6 +13,8 @@ spec:
     enabled: true
   gfd: {}
   dcgmExporter:
+    serviceMonitor:
+      enabled: true
     config:
       name: ''
   driver:
