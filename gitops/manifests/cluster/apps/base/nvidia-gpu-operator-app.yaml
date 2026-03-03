@@ -14,7 +14,7 @@ spec:
   project: default
   source:
     path: gitops/manifests/operators/nvidia-gpu-operator/aggregate/overlays/default
-    repoURL: https://github.com/samueltauil/ocp-gpu-gitop.git
+    repoURL: https://github.com/samueltauil/ocp-gpu-gitops.git
     targetRevision: main
   syncPolicy:
     automated:
